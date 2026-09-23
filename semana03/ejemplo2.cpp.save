@@ -1,0 +1,10 @@
+#include <iostream>
+#include <unistd.h>
+using namespace std;
+int main(){
+	fork();
+	cout<<" Hola Linux. PID = "<<getpid()<<endl; 
+	//cout<<" Padre Linux PID = "<<getppid()<<endl;
+	sleep(20);
+	return 0;
+}

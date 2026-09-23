@@ -35,8 +35,10 @@ void ejecutar_con_hilos(int num_hilos) {
 }
 int main() {
 	printf("Ejecutando con 1 hilo...\n");
-	ejecutar_con_hilos(1); printf("Ejecutando con 5 hilos...\n");
-	ejecutar_con_hilos(5); printf("Ejecutando con 10 hilos...\n");
+	ejecutar_con_hilos(1);
+	printf("Ejecutando con 5 hilos...\n");
+	ejecutar_con_hilos(5);
+	printf("Ejecutando con 10 hilos...\n");
 	ejecutar_con_hilos(10);
     	printf("Finalizó la ejecución del programa principal\n");
 	return 0;
